@@ -1,0 +1,37 @@
+{
+  "name": "prevent-browser-tab-closing",
+  "description": "Prevent browser or it's Tab from accidentally closing like gmail.",
+  "version": "0.2.9",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeyyedKhandon/prevent-browser-tab-closing.git"
+  },
+  "author": "SeyyedMahdi hassanpour",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/prevent-browser-tab-closing/issues"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/prevent-browser-tab-closing#readme",
+  "keywords": [
+    "prevent browser closing",
+    "prevent tab closing",
+    "notify user before browser closing",
+    "notify user before tab closing",
+    "browser",
+    "tab",
+    "chrome"
+  ]
+}
