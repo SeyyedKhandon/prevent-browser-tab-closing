@@ -1,7 +1,7 @@
 {
   "name": "prevent-browser-tab-closing",
   "description": "Prevent browser or it's Tab from accidentally closing like gmail.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
